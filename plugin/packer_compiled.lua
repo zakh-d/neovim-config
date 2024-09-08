@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/Users/danylozakharchenko/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/danylozakharchenko/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -98,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/danylozakharchenko/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/Users/danylozakharchenko/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
   }
 }
 
