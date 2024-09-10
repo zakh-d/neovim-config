@@ -13,6 +13,11 @@ return require('packer').startup(function(use)
   }
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('ThePrimeagen/harpoon')
+
+  -- vim tutorial game
   use('ThePrimeagen/vim-be-good')
+
+  -- color scheme
   use('sainnhe/gruvbox-material')
+
 end)
