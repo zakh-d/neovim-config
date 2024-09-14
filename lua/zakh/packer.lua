@@ -20,4 +20,14 @@ return require('packer').startup(function(use)
   -- color scheme
   use('sainnhe/gruvbox-material')
 
+
+  use {
+      "williamboman/mason.nvim",
+      "williamboman/mason-lspconfig.nvim",
+      "neovim/nvim-lspconfig",
+  }
+  use({'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'})
+  use({'hrsh7th/nvim-cmp'})
+  use({'hrsh7th/cmp-nvim-lsp'})
+
 end)
