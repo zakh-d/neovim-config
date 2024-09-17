@@ -19,7 +19,7 @@ return require('packer').startup(function(use)
 
   -- color scheme
   use('sainnhe/gruvbox-material')
-
+  use {"rose-pine/neovim", as = 'rose-pine'}
 
   use {
       "williamboman/mason.nvim",
@@ -32,4 +32,10 @@ return require('packer').startup(function(use)
 
   -- git
   use('tpope/vim-fugitive')
+
+  -- status line
+  use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 end)
